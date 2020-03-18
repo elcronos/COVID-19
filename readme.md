@@ -1,3 +1,5 @@
+Read this in [Italian](README/readme_it.md). Soon in other languages !
+
 # COVID-19 Detector
 The novel coronavirus disease (a.k.a COVID-19) pandemic started last year in December 2019 in Wuhan, China. However, it has rapidly spread to the rest of the world, being countries such as  Italy, Iran and South Korea among the most affected.
 
