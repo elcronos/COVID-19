@@ -30,7 +30,7 @@ I am looking for volunteers to work with me in this project and hopefully make a
 
 How to contribute if you are a:
 
-- Sponsor
+- Sponsors
 
 - Doctors and Radiologists
 
@@ -46,6 +46,7 @@ How to contribute if you are a:
 
 - Legal Advise & Copyrights Advisors
 
+
 #### Sponsors
 We want to democratise and make this technology available to everyone. However, there are some costs associated for this kind of projects. For example, when we create a website or a mobile app, people will be able to use the service free-of-charge. However, just for keeping the website online operating 24h/7, there will be some costs.
 
@@ -58,6 +59,7 @@ We will also have a sections for individuals that want to contribute as well.
 Please contact me to express your interest in becoming a sponsor.
 
 Email: capcarde@gmail.com
+
 
 #### Doctors and Radiologists
 If you know any doctors or radiologists who are able and willing to bring their expertise to help us validate this tool and give us more insights on how to improve it, please let us know! As the main users, we need their domain expertise to improve and make this project of any use
