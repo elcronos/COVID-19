@@ -5,21 +5,14 @@ If you are reading this, you have probably seem a post on social media about thi
 <br/>
 <br/>
 Our official channel for communication is Slack. Join us now:
-<div>
-<img src="resources/slack_logo.png" width="50px" height="50px"
-     alt="Slack"/>
+
+[<img src="resources/slack_logo.png" width="50px" height="50px">](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ)
 <b>Slack</b>
-</div>
 <br/>
 For Developers or people wanting to contribute directly in the GitHub repository. Please star and follow our repository:
 
-<div>
-<img src="resources/github_logo.png" width="50px" height="50px"
-     alt="Slack"/>
+[<img src="resources/github_logo.png" width="50px" height="50px">](https://github.com/elcronos/COVID-19)
 <b>GitHub</b>
-</div>
-
-
 
 ## Motivation
 The situation is evolving very fast and it is hard to predict at the moment the reach and real impact of the novel coronavirus around the world. I want to highlight that we do not intent to replace or create a new coronavirus test that works better than the current one. However, we know that in some countries getting tested using the tradicional method could cost around 100 USD or more, which of course, it is not accesible for everyone. In some other countries, tests are running out of stock as they are not produced fast enough or the demand right now is too high around the world.
