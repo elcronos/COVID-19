@@ -1,4 +1,9 @@
-Read this in [Italian](README/readme_it.md). Soon in other languages !
+
+If you have decided to contribute or support this open-source project, please read [this instructions on how you can help and be part of this initiative](CONTRIBUTING.md). Please consider to join us on [Slack](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ), which is will be the official channel for communication.
+
+If you want to know more about this project please read the information below, which is also available in [Italian](README/readme_it.md) and [Spanish](README/readme_es.md). Soon in other languages:
+
+<div class=text-justify>
 
 # COVID-19 Detector
 The novel coronavirus disease (a.k.a COVID-19) pandemic started last year in December 2019 in Wuhan, China. However, it has rapidly spread to the rest of the world, with other countries such as Italy, Iran and Spain among the most affected.
@@ -19,7 +24,7 @@ I have created a Neural Network model that is able to predict with 97.5% accurac
 
 I am looking for volunteers to work with me in this project and hopefully, we will be able to make a difference and help the world with our input. There are some governments and private companies working on this problem at the moment, however, my main goal is to make the code and the content available to anyone for non-commercial purposes. I want to make this technology available free-of-charge so that it can be used anywhere in the world to help doctors in these hard times.
 
-**Translators and Copyrighters:** We are looking for people able to translate this post to different languages. In addition, if there are people who could help us writing content then that would be highly appreciated.
+**Translators and Copywriters:** We are looking for people able to translate this post to different languages. In addition, if there are people who could help us writing content then that would be highly appreciated.
 
 **Doctors:** If you know any doctors or radiologists who are able and willing to bring their expertise to help us validate this tool and give us more insights on how to improve it, please let us know! As the main users, we need their domain expertise to improve and make this project of any use.
 
@@ -42,3 +47,5 @@ E-mail: camilo.pestanacardeno@research.uwa.edu.au
 
 # LICENSE
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">COVID-19 Detector</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Camilo Pestana</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+</div>
