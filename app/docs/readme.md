@@ -1,1 +1,1 @@
-# Help us creating proper documentation for this projects
+# Help us creating proper documentation for this project
