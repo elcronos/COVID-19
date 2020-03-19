@@ -3,22 +3,6 @@ If you have decided to contribute or support this open-source project, please re
 
 If you want to know more about this project please read the information below, which is also available in [Italian](README/readme_it.md) and [Spanish](README/readme_es.md). Soon in other languages:
 
-How install server?
-------------
-
-1. Install Docker: [Mac](https://docs.docker.com/docker-for-mac/) or [Windows](https://docs.docker.com/docker-for-windows/)
-
-2. Run:
-- ```bash
-  $ docker-compose up --build -d
-  ```
-    Or:
-- ```bash
-  $ cd app/server && ./run.sh
-  ```
-
-The server run in http://localhost:5562
-  
 
 <div class=text-justify>
 
