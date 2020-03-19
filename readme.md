@@ -1,7 +1,7 @@
 
 If you have decided to contribute or support this open-source project, please read [this instructions on how you can help and be part of this initiative](CONTRIBUTING.md). Please consider to join us on [Slack](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ), which is will be the official channel for communication.
 
-If you want to know more about this project please read the information below, which is also available in [Italian](README/readme_it.md) and [Spanish](README/readme_es.md). Soon in other languages:
+If you want to know more about this project please read the information below, which is also available in [Italian](blob/master/README/readme_it.md) and [Spanish](blob/master/README/readme_es.md). Soon in other languages:
 
 <div class=text-justify>
 
