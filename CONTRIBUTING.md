@@ -62,9 +62,9 @@ Email: capcarde@gmail.com
 
 
 #### Doctors and Radiologists
-If you know any doctors or radiologists who are able and willing to bring their expertise to help us validate this tool and give us more insights on how to improve it, please let us know! As the main users, we need their domain expertise to improve and make this project of any use
+If you know any doctors or radiologists who are able and willing to bring their expertise to help us validate this tool and give us more insights on how to improve it, please let us know! As the main users, we need their domain expertise to improve and make this project of any use.
 
-  - We would like to know how many
+We would like to ask some questions, for example, How sick has to be the person for the COVID-19 to be detected in the x-ray? What is the case for similar coronaviruses in the past?
 
 #### Web Developer / Software/Mobile Developer / Cloud engineer
 
