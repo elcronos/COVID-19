@@ -4,7 +4,7 @@
 If you are reading this, you probably have seen a post on social media about this initiative to create an open-source engine that serves to detect the COVID-19 infection using the power of Artificial Intelligence. After my original post on social media for Facebook and LinkedIn went viral (more than 15,000 people have seen and 600 of them shared it), I was fascinated by the massive number of people who contacted me in the last 24 hours willing to help or contribute somehow to this project. For that reason, I decided to be more specific about the objectives and help you understand how you can help us with your special set of skills or motives.
 <br/>
 Our official channel for communication is Slack. Join us now:
-
+<br/>
 [<img src="resources/slack_logo.png" width="30px" height="30px">](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ)
 <br/>
 For Developers or people wanting to contribute directly in the GitHub repository. Please star and follow our repository:
