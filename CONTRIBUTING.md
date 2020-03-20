@@ -42,6 +42,8 @@ How to contribute if you are a:
 
 - Graphic Designer / Multimedia
 
+- Marketing
+
 - Translator / Copywriter
 
 - Legal Advise & Copyrights Advisors
@@ -99,6 +101,13 @@ Maybe there are better and cheaper alternatives to discover the novel coronaviru
 
 #### Graphic Designer / Multimedia
 We want to reach as many people as possible willing to help us. We know infographics and videos are a good way to spread the message ! Help us making this possible !
+
+In addition we need:
+  - A logo for this initiative
+  - UI/UX designs for mobile and web
+
+#### Marketing
+We need a good name for our initiative. What about a Facebook page and some help with our future landing page?
 
 #### Translator / Copywriter
 In the next days we will publish more content and maybe even create a blog related to our initiative. Help us to translate and spread the message in different languages and create new content.
