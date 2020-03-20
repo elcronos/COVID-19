@@ -2,13 +2,16 @@
 
 <div class=text-justify>
 If you are reading this, you probably have seen a post on social media about this initiative to create an open-source engine that serves to detect the COVID-19 infection using the power of Artificial Intelligence. After my original post on social media for Facebook and LinkedIn went viral (more than 15,000 people have seen and 600 of them shared it), I was fascinated by the massive number of people who contacted me in the last 24 hours willing to help or contribute somehow to this project. For that reason, I decided to be more specific about the objectives and help you understand how you can help us with your special set of skills or motives.
-
 <br/>
-[<img src="resources/slack_logo.png" width="30px" height="30px">](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ)
+<br/>
+Our official channel for communication is Slack. Join us now:
 
+[<img src="resources/slack_logo.png" width="30px" height="30px">](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ)
 <br/>
 For Developers or people wanting to contribute directly in the GitHub repository. Please star and follow our repository:
-[<img src="resources/github_logo.png" width="30px" height="30px">](https://github.com/elcronos/COVID-19)<b>GitHub</b>
+
+[<img src="resources/github_logo.png" width="30px" height="30px">](https://github.com/elcronos/COVID-19)
+<b>GitHub</b>
 
 ## Motivation
 The situation is evolving very fast and it is hard to predict at the moment the reach and real impact of the novel COVID-19 (Also known as Corona-virus) around the world. I want to highlight that we do not intend to replace the already existing traditional medical examination. However, we know that in some countries getting tested using the traditional method could cost around 100 USD or more, and again ofcourse it is not accessible for everyone. And in some countries, these traditional methods are not able to keep up with the demand right now.
