@@ -14,10 +14,12 @@ RUN pip install --upgrade pip
 
 RUN pip3 install awscli --upgrade --user --no-warn-script-locatio
 
-COPY app app/
+COPY app/requirements.txt .
 
-RUN pip install -r app/requirements.txt
+RUN pip install -r requirements.txt
+
+COPY app app/
 
 EXPOSE 5562
 
-ENTRYPOINT ["python", "app/server.py"]
+# ENTRYPOINT ["python", "app/server.py"]
