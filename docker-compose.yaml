@@ -5,6 +5,11 @@ services:
     build: ./backend/server
     ports:
       - 5562:5562
+    # working_dir: /app
+    # command: python server.py
+    environment:
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
   webapp:
     image: node:10.10-alpine
     volumes:
