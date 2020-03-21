@@ -1,8 +1,19 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import { Button, Card, InputLabel, FormControl, MenuItem, Select, TextField, Typography } from '@material-ui/core';
 
 function SignUp() {
-  const [type, setType] = useState(null);
+  const [type, setType] = useState(10);
+  let history = useHistory();
+
+  const handleGoToLogin = () => {
+    history.push('/login');
+  };
+
+  const handleSignUp = () => {
+    history.push('/home');
+  };
+
 
 
   return (
@@ -12,7 +23,6 @@ function SignUp() {
 
         <form noValidate autoComplete="off">
           <TextField
-            id="filled-full-width"
             label="Email"
             fullWidth
             type="email"
@@ -23,7 +33,6 @@ function SignUp() {
             variant="filled"
           />
           <TextField
-            id="filled-full-width"
             label="Password"
             placeholder=""
             type="password"
@@ -35,7 +44,6 @@ function SignUp() {
             variant="filled"
           />
           <TextField
-            id="filled-full-width"
             label="Confirm Password"
             placeholder=""
             type="password"
@@ -47,10 +55,9 @@ function SignUp() {
             variant="filled"
           />
           <FormControl margin="normal" variant="filled" fullWidth>
-            <InputLabel id="demo-simple-select-filled-label" fullWidth>User type</InputLabel>
+            <InputLabel id="sign-up-userType">User type</InputLabel>
             <Select
-              labelId="demo-simple-select-filled-label"
-              id="demo-simple-select-filled"
+              labelId="sign-up-userType"
               value={type}
               onChange={e => setType(e.target.value)}
             >
@@ -60,10 +67,10 @@ function SignUp() {
           </FormControl>
 
           <div className="ai-sign-up__content-have-account">
-            <Button>Already have an account?</Button>
+            <Button onClick={handleGoToLogin}>Already have an account?</Button>
           </div>
           <div className="ai-sign-up__content-btn-sign-up">
-            <Button className="ai-sign-up__btn-sign-up" variant="contained" color="primary">
+            <Button className="ai-sign-up__btn-sign-up" variant="contained" color="primary" onClick={handleSignUp}>
               Sign Up
             </Button>
           </div>

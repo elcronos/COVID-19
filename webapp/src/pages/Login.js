@@ -1,7 +1,18 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import { Button, Card, TextField, Typography } from '@material-ui/core';
 
 function Login() {
+  let history = useHistory();
+
+  const handleGoToSignUp = () => {
+    history.push('/signUp');
+  };
+
+  const handleLogin = () => {
+    history.push('/home');
+  };
+
   return (
     <div className="ai-login">
       <Card className="ai-login__content">
@@ -9,7 +20,6 @@ function Login() {
 
         <form noValidate autoComplete="off">
           <TextField
-            id="filled-full-width"
             label="Email"
             fullWidth
             type="email"
@@ -20,7 +30,6 @@ function Login() {
             variant="filled"
           />
           <TextField
-            id="filled-full-width"
             label="Password"
             placeholder=""
             type="password"
@@ -32,10 +41,10 @@ function Login() {
             variant="filled"
           />
           <div className="ai-login__content-forgot">
-            <Button>Forgot your password?</Button>
+            <Button onClick={handleGoToSignUp}>Forgot your password?</Button>
           </div>
           <div className="ai-login__content-btn-login">
-            <Button className="ai-login__btn-login" variant="contained" color="primary">
+            <Button className="ai-login__btn-login" variant="contained" color="primary" onClick={handleLogin}>
               Login
             </Button>
           </div>

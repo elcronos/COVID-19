@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import { ThemeProvider } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
 
@@ -29,10 +29,14 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <main>
-        <Route exact path='/' render={() => <Home />} />
+        <Route exact path='/home' render={() => <Home />} />
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/login' render={() => <Login />} />
-        <Route path='/some-page' render={() => <SomePage />} />
+        <Redirect
+          to={{
+            pathname: '/login',
+          }}
+        />
       </main>
     </ThemeProvider>
   );
