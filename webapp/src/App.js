@@ -5,7 +5,6 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
-import SomePage from './pages/SomePage';
 import SignUp from './pages/SignUp';
 
 let theme = createMuiTheme({
