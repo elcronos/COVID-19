@@ -1,10 +1,12 @@
 import React from 'react';
-import { Route, NavLink } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import { ThemeProvider } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
 
 import Home from './pages/Home';
+import Login from './pages/Login';
 import SomePage from './pages/SomePage';
+import SignUp from './pages/SignUp';
 
 let theme = createMuiTheme({
   typography: {
@@ -27,10 +29,9 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <main>
-        <NavLink to='/'>Home </NavLink> &nbsp;&nbsp;
-        <NavLink to='/some-page'>Some page </NavLink>
-        <hr />
         <Route exact path='/' render={() => <Home />} />
+        <Route exact path='/signUp' render={() => <SignUp />} />
+        <Route exact path='/login' render={() => <Login />} />
         <Route path='/some-page' render={() => <SomePage />} />
       </main>
     </ThemeProvider>

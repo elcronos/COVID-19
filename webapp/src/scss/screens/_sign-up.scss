@@ -1,0 +1,31 @@
+/*------------------------------------*\
+  #SIGN-UP SCREEN
+\*------------------------------------*/
+
+.ai-sign-up {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @at-root #{&}__content {
+    padding: 1rem;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  @at-root #{&}__content-have-account {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  @at-root #{&}__content-btn-sign-up {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  @at-root #{&}__btn-sign-up {
+    width: 200px;
+  }
+}
