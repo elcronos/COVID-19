@@ -1,0 +1,8 @@
+{
+  "app.welcome": "Welcome to COBIC-19 Diagnosis",
+  "app.email": "email",
+  "app.password": "password",
+  "login.forgotPassword": "Forgot your password?",
+  "login.goToSignUp": "You do not have account, create one!",
+  "login.title": "Login"
+}
