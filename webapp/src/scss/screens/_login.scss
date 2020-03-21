@@ -1,0 +1,31 @@
+/*------------------------------------*\
+  #LOGIN SCREEN
+\*------------------------------------*/
+
+.ai-login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @at-root #{&}__content {
+    padding: 1rem;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  @at-root #{&}__content-forgot {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  @at-root #{&}__content-btn-login {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  @at-root #{&}__btn-login {
+    width: 200px;
+  }
+}

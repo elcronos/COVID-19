@@ -2,6 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ReactDOM from 'react-dom';
+import 'typeface-roboto';
 
 import './scss/index.scss';
 import * as serviceWorker from './serviceWorker';
@@ -15,7 +16,7 @@ ReactDOM.render(
     <Router>
       <App />
     </Router>
-  </Provider>, 
+  </Provider>,
   rootElement
 );
 
