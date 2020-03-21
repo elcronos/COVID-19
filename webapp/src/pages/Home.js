@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
-import { AttachFile, CameraAlt, RestoreIcon } from '@material-ui/icons';
-
+import RestoreIcon from '@material-ui/icons/Restore';
+import CameraAlt from '@material-ui/icons/CameraAlt';
+import AttachFile from '@material-ui/icons/AttachFile';
 function Home() {
   const [currentTab, setCurrentTab] = useState(0);
 
