@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  server:
+    build: ./backend/server
+    ports:
+      - 5562:5562
+  webapp:
+    image: node:10.10-alpine
+    volumes:
+      - ./webapp:/var/www/webapp:rw,cached
+    ports:
+      - 1337:1337
+    command: yarn start
+    working_dir: /var/www/webapp
