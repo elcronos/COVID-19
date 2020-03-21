@@ -1,12 +1,16 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import { Button, Card, TextField, Typography } from '@material-ui/core';
+import { Button, Card, TextField, Typography, Box } from '@material-ui/core';
 
 function Login() {
   let history = useHistory();
 
   const handleGoToSignUp = () => {
-    history.push('/signUp');
+    history.push('/signup');
+  };
+
+  const handleGoToForgot = () => {
+    history.push('/forgot');
   };
 
   const handleLogin = () => {
@@ -41,7 +45,7 @@ function Login() {
             variant="filled"
           />
           <div className="ai-login__content-forgot">
-            <Button onClick={handleGoToSignUp}>Forgot your password?</Button>
+            <Button onClick={handleGoToForgot}>Forgot your password?</Button>
           </div>
           <div className="ai-login__content-btn-login">
             <Button className="ai-login__btn-login" variant="contained" color="primary" onClick={handleLogin}>
@@ -49,6 +53,10 @@ function Login() {
             </Button>
           </div>
         </form>
+
+        <Box mt="2" mb="2" display="flex" justifyContent="center">
+          <Button onClick={handleGoToSignUp}>You do not have account, create one!</Button>
+        </Box>
       </Card>
     </div>
   );

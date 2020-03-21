@@ -6,6 +6,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
+import ForgotPassword from './pages/ForgotPassword';
 
 let theme = createMuiTheme({
   typography: {
@@ -31,6 +32,7 @@ function App() {
         <Route exact path='/home' render={() => <Home />} />
         <Route exact path='/signUp' render={() => <SignUp />} />
         <Route exact path='/login' render={() => <Login />} />
+        <Route exact path='/forgot' render={() => <ForgotPassword />} />
         <Redirect
           to={{
             pathname: '/login',
