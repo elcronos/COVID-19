@@ -32,11 +32,9 @@ This results in the following running containers:
 
 ```bash
 $ docker-compose ps
-         Name                        Command              State                      Ports
--------------------------------------------------------------------------------------------------------------
       Name                Command          State           Ports
 -------------------------------------------------------------------------
 covid-19_server_1   python app/server.py   Up      0.0.0.0:5562->5562/tcp
 covid-19_webapp_1   yarn start             Up      0.0.0.0:1337->1337/tcp
------------
+-------------------------------------------------------------------------
 ```
