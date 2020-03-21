@@ -31,7 +31,7 @@ I am looking for volunteers to work with me in this project and hopefully, we wi
 
 **Software/Mobile Developers:** We could create a website or mobile app powered by our technology that is user-friendly and will allow users to upload x-rays (or CTs in the future) to give an automatic diagnosis. We also need people to write proper documentation for the project.
 
-**Data Analyst/ Data Scientist / Data Engineers / Scientist** This first model that I have created is far from optimised. I will be accepting Pull Requests on Github (https://github.com/elcronos/COVID_19) so you can help us to develop a better solution. In addition, in the future other types of data or models might be considered so your input is important for the core development of the COVID-19 detector.
+**Data Analyst/ Data Scientist / Data Engineers / Scientist** This first model that I have created is far from optimised. I will be accepting Pull Requests on Github (https://github.com/elcronos/COVID-19) so you can help us to develop a better solution. In addition, in the future other types of data or models might be considered so your input is important for the core development of the COVID-19 detector.
 
 **Everyone else:** If you know anyone in your list of friends that has the skills needed and might want to help with this project please contact me. If you believe you could help in any other way that has not been mentioned before, that's great as well ! Maybe just by sharing this project with others we could reach the right people to help us.
 
