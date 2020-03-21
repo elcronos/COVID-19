@@ -1,0 +1,12 @@
+/*------------------------------------*\
+  #HOME SCREEN
+\*------------------------------------*/
+.ai-home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  @at-root #{&}__content {
+    flex: 1;
+  }
+}
