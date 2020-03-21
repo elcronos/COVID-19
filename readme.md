@@ -3,6 +3,7 @@ If you have decided to contribute or support this open-source project, please re
 
 If you want to know more about this project please read the information below, which is also available in [Italian](README/readme_it.md) and [Spanish](README/readme_es.md). Soon in other languages:
 
+### [**Developer Information**](README/DEVELOPERS.md).
 
 <div class=text-justify>
 
