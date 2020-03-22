@@ -8,3 +8,5 @@ python-multipart
 aiofiles
 aiohttp
 scipy
+caffe2
+onnx

@@ -10,6 +10,9 @@ import torchvision.transforms.functional as F
 import numpy as np
 import json
 import os
+import onnx
+import caffe2.python.onnx.backend as onnx_caffe2_backend
+
 # Images
 from PIL import Image
 from io import BytesIO
@@ -18,11 +21,15 @@ import base64
 """
  Use model
 """
+
+RUN_WITH_CAFFE = False
+
+
 class CNNModel:
 
     def __init__(self, use_pretrained=False, num_classes=2):
         self.use_pretrained = use_pretrained
-        self.num_classes    = num_classes
+        self.num_classes = num_classes
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         print('Initializing...')
         PATH_MODEL = f'{os.getcwd()}/app/checkpoints/chk_resnet_50_epoch_14.pt'
@@ -36,7 +43,7 @@ class CNNModel:
     def get_transformer(self):
         # Normalize images
         channel_stats = dict(mean=[0.485, 0.456, 0.406],
-                                 std=[0.229, 0.224, 0.225])
+                             std=[0.229, 0.224, 0.225])
         # Apply Transformations
         eval_transformation = transforms.Compose([
                 transforms.Resize(256),
@@ -59,7 +66,7 @@ class CNNModel:
         return np.exp(x)/sum(np.exp(x))
 
     def get_label(self, idx):
-        with open("app/labels.json",encoding='utf-8', errors='ignore') as json_data:
+        with open("app/labels.json", encoding='utf-8', errors='ignore') as json_data:
             labels = json.load(json_data, strict=False)
             return labels[idx]
 
@@ -69,12 +76,19 @@ class CNNModel:
             output: 1000 size vector
         """
         x = self.preprocess(image, self.get_transformer())
-        output = self.model(x) # get the output from the last hidden layer of the pretrained model
 
-        if isinstance(output, torch.Tensor):
-            output = output.detach().numpy()
+        # Run the Caffe2 net:
+        if RUN_WITH_CAFFE:
+            caffe2_model = onnx.load("app/checkpoints/caffe2_model.proto")
+            W = {caffe2_model.graph.input[0].name: x.data.numpy()}
+            prepared_backend = onnx_caffe2_backend.prepare(caffe2_model)
+            output = prepared_backend.run(W)[0]
+        else:
+            output = self.model(x)  # get the output from the last hidden layer of the pretrained model
+            if isinstance(output, torch.Tensor):
+                output = output.detach().numpy()
 
-        idx   = np.argmax(output[0])
+        idx = np.argmax(output[0])
         label = self.get_label(idx)
         score = self.softmax(output[0])[idx]
 
