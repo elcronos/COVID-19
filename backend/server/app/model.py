@@ -22,7 +22,7 @@ import base64
  Use model
 """
 
-RUN_WITH_CAFFE = True
+RUN_WITH_CAFFE = False
 
 
 class CNNModel:
