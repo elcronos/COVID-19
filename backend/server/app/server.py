@@ -18,7 +18,6 @@ app = Starlette()
 # Use it only for testing purposes
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
 
-
 async def setup_learner():
     try:
         cnn = CNNModel()
@@ -33,7 +32,6 @@ tasks = [asyncio.ensure_future(setup_learner())]
 learn = loop.run_until_complete(asyncio.gather(*tasks))[0]
 loop.close()
 
-
 @app.route('/')
 def index(request):
     html = Path('app/view/index.html')
@@ -42,8 +40,6 @@ def index(request):
 # Receive a Base64 Image
 # Method: POST
 # hostname:port/predict
-
-
 @app.route('/predict', methods=['POST'])
 async def analyze(request):
     r = await request.json()
@@ -56,8 +52,7 @@ async def analyze(request):
         img = Image.open(image_data)
         idx, label, score = learn.predict(img)
 
-    return JSONResponse({'idx': str(idx), 'label': label, 'score': str(score)})
-
+    return JSONResponse({'idx': str(idx), 'label': label ,'score': str(score)})
 
 if __name__ == '__main__':
     uvicorn.run(app=app, host='0.0.0.0', port=5562)
