@@ -1,6 +1,6 @@
 """
 run:
-$ python3 convert_model.py
+$ python convert_model.py
 
 Converts a pytorch model to caffe2 see:
 https://machinelearnings.co/serving-pytorch-models-on-aws-lambda-with-caffe2-onnx-7b096806cfac
@@ -19,8 +19,8 @@ from torch.autograd import Variable
 import onnx_caffe2.backend as backend
 
 
-CAFFE2_MODEL = 'checkpoints/caffe2_model.proto'
-PYTORCH_MODEL = 'checkpoints/chk_resnet_50_epoch_14.pt'
+CAFFE2_MODEL = '../backend/server/app/checkpoints/caffe2_model.proto'
+PYTORCH_MODEL = '../backend/server/app/checkpoints/chk_resnet_50_epoch_14.pt'
 CHECK_CONVERTED_MODEL = False
 
 
