@@ -18,11 +18,13 @@ import base64
 """
  Use model
 """
+
+
 class CNNModel:
 
     def __init__(self, use_pretrained=False, num_classes=2):
         self.use_pretrained = use_pretrained
-        self.num_classes    = num_classes
+        self.num_classes = num_classes
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         print('Initializing...')
         PATH_MODEL = f'{os.getcwd()}/app/checkpoints/chk_resnet_50_epoch_14.pt'
@@ -69,12 +71,12 @@ class CNNModel:
             output: 1000 size vector
         """
         x = self.preprocess(image, self.get_transformer())
-        output = self.model(x) # get the output from the last hidden layer of the pretrained model
+        output = self.model(x)  # get the output from the last hidden layer of the pretrained model
 
         if isinstance(output, torch.Tensor):
             output = output.detach().numpy()
 
-        idx   = np.argmax(output[0])
+        idx = np.argmax(output[0])
         label = self.get_label(idx)
         score = self.softmax(output[0])[idx]
 
