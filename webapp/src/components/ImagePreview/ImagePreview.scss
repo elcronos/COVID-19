@@ -1,0 +1,19 @@
+.image-preview {
+  position: relative;
+  text-align: center;
+}
+
+.image-preview > img {
+  width: 768px;
+}
+
+@media(max-width:768px){
+  .image-preview > img {
+    width: 100%;
+  }
+}
+
+/* fullscreen enable by props */
+.image-preview-fullscreen > img {
+  width: 100%;
+}

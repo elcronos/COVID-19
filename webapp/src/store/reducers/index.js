@@ -1,14 +1,56 @@
-import { INCREMENT_COUNTER } from '../actions/types';
+import { 
+  DISCARD_PICTURE,
+  SET_CURRENT_PICTURE,
+  UPLOAD_PICTURE_SUCCESS,
+  UPLOAD_PICTURE_ERROR
+} from '../actions/types';
 
 const initialState = {
-  count: 0
+  prediction: {
+    id: null
+  },
+  picture: {
+    dataUri: null,
+  },
+  uploadSuccess: false,
+  uploadFailed: false
 };
 
 function rootReducer(state = initialState, action) {
-  if (action.type === INCREMENT_COUNTER) {
+  const { type, payload } = action;
+  switch (type) {
+  case SET_CURRENT_PICTURE:
+    // console.log('Setting current picture');
     return {
-      count: state.count + 1
+      ...state,
+      picture: {
+        dataUri: payload
+      }
     };
+  case UPLOAD_PICTURE_SUCCESS:
+    // console.log('Upload picture succes');
+    return {
+      ...state,
+      prediction: payload,
+      uploadSuccess: true
+    };
+  case UPLOAD_PICTURE_ERROR:
+    // console.log('Uploading picture error');
+    return {
+      ...state,
+      uploadFailed: true
+    };
+  case DISCARD_PICTURE:
+    // console.log('Discarding picture');
+    return {
+      ...state,
+      uploadFailed: false,
+      picture: {
+        dataUri: null,
+      },
+    };
+  default:
+    break;
   }
   return state;
 }
