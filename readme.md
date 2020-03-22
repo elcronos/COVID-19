@@ -38,7 +38,7 @@ I am looking for volunteers to work with me in this project and hopefully, we wi
 
 # ABOUT ME
 
- My name is Camilo Pestana, I am currently a PhD candidate from the University of Western Australia. I specialise in Computer Vision and use Artificial Intelligence to solve interesting problems.
+ My name is Camilo Pestana. I specialise in Computer Vision and use Artificial Intelligence to solve interesting problems.
 
 # Contact US
 
