@@ -1,0 +1,14 @@
+{
+  "name": "fight-covid-19",
+  "version": "1.0.0",
+  "keywords": [
+    "COVID-19",
+    "ML",
+    "X-Ray"
+  ],
+  "author": "Cristian Angulo @nietzscheson",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.4"
+  }
+}
