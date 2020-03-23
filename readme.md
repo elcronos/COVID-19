@@ -7,7 +7,7 @@ If you want to know more about this project please read the information below, w
 * [Español](README/readme_es.md)
 * [Italiano](README/readme_it.md)
 * [Français](README/readme_fr.md)
-* [Deutsch](README/readme_de.md)
+* [Deutsch](README/readme_ge.md)
 
 ### [**Developer Information**](README/DEVELOPERS.md)
 
