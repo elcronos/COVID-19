@@ -6,6 +6,30 @@
 >
 >_Please do not open new PR on this repo if your PR relates to any project found in the mentioned above. Do it on the corresponding project repo._
 
+---
+
+# IMPORTANT ANNOUNCEMENT !
+
+We started this group with an altruist objective in mind: To diagnose COVID-19 in chest X-ray. We perceived that task as a healthcare necessity and we began to work on it. So, a team of highly compromised engineers started to work with that single objective on mind. In that path we found doctors willing to contribute. We had several videoconferences with them and we realized the full potential of our project. So, we decide to switch from our original and not so realistic objective to other more meaningful and needed project. We will use the amazing skills of all the team to create a world high impact surveillance app. So, the model became a secondary objective to work on. However, we recognize the attention we capture with it and we want to use all these attention in the necessities of the world facing the COVID pandemic.
+
+Following the feedback of the doctors in our group, the app we are currently working on will follow the next 4 principles:
+1.  To detect alarm signs
+2.  To relief the load of the healthcare system by redirecting the low risk patients to sites with reliable information about health care and redirect the high-risk patients to the closest medical facility.
+3.  To serve as generators of real-time information.
+4.  To keep close links with healthcare authorities and generate useful epidemiological information.
+
+We are still designing an artificial intelligence model for chest – x rays. But we have a slight switch according the medical feedback. So, right now, our main objective is:
+1.  To Identify if AI has a role in the chest X-rays of patients with suspicion or diagnosis of coronavirus.
+
+We are looking for high quality in the model we are about to release. We are increasingly curating additional datasets and will properly validate it. We have a team of radiologist collaborating with us. So, we are going to incorporate this model in our open-source app once it is adequately trained and validated. We want to be crystal-clear about the intentions of the team. We keep believing in the high impact of an open-source app able to provide real time information for patients, to relief the load of the healthcare providers and give useful insights to governments and health authorities.
+
+Thanks to all of you who keep working with us,
+
+Camilo Pestana, Fight COVID-19 Director
+
+---
+
+
 
 If you have decided to contribute or support this open-source project, please read [this instructions on how you can help and be part of this initiative](CONTRIBUTING.md). Please consider to join us on [Slack](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ), which is will be the official channel for communication.
 
