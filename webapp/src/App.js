@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import ForgotPassword from './pages/ForgotPassword';
+import UploadPicture from './pages/upload-photo/UploadPicture';
+import PreviewPicture from './pages/upload-photo/PreviewPicture';
 
 let theme = createMuiTheme({
   typography: {
@@ -31,13 +33,17 @@ function App() {
       <main>
         <Route exact path='/home' render={() => <Home />} />
         <Route exact path='/signUp' render={() => <SignUp />} />
-        <Route exact path='/login' render={() => <Login />} />
+        <Route exact path='/' render={() => <Login />} />
         <Route exact path='/forgot' render={() => <ForgotPassword />} />
-        <Redirect
+
+
+        <Route exact path='/upload' render={() => <UploadPicture />} />
+        <Route exact path='/upload/preview' render={() => <PreviewPicture />} />
+        {/* <Redirect
           to={{
             pathname: '/login',
           }}
-        />
+        /> */}
       </main>
     </ThemeProvider>
   );
