@@ -1,4 +1,12 @@
 
+> ## Important
+> Hi everyone! We are splitting this main repo in repos for each project (android, ios, web, landing-page, core, etc). This should increase maintainability and separate concerns a little bit better. 
+> 
+> The new repos will be grouped under our Github Organization. Here it is: https://github.com/FightCOVID19.  
+>
+>_Please do not open new PR on this repo if your PR relates to any project found in the mentioned above. Do it on the corresponding project repo._
+
+
 If you have decided to contribute or support this open-source project, please read [this instructions on how you can help and be part of this initiative](CONTRIBUTING.md). Please consider to join us on [Slack](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ), which is will be the official channel for communication.
 
 If you want to know more about this project please read the information below, which is also available in other languages:
