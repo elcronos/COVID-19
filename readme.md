@@ -23,22 +23,6 @@ We are still designing an artificial intelligence model for chest – x rays. Bu
 
 We are looking for high quality in the model we are about to release. We are increasingly curating additional datasets and will properly validate it. We have a team of radiologist collaborating with us. So, we are going to incorporate this model in our open-source app once it is adequately trained and validated. We want to be crystal-clear about the intentions of the team. We keep believing in the high impact of an open-source app able to provide real time information for patients, to relief the load of the healthcare providers and give useful insights to governments and health authorities.
 
-Thanks to all of you who keep working with us,
-
-Camilo Pestana
-
----
-
-# ABOUT ME
-
- My name is Camilo Pestana. I specialise in Computer Vision and use Artificial Intelligence to solve interesting problems.
-
-# Contact US
-
-If you want to help us or collaborate somehow in this project please contact me via:
-
-LinkedIn: [https://www.linkedin.com/in/camilo-pestana](https://www.linkedin.com/in/camilo-pestana/?locale=en_US)
-E-mail: capcarde@gmail.com
 
 # LICENSE
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">COVID-19 Detector</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Camilo Pestana</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
