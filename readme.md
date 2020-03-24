@@ -25,7 +25,7 @@ We are looking for high quality in the model we are about to release. We are inc
 
 Thanks to all of you who keep working with us,
 
-Camilo Pestana, Fight COVID-19 Organizor
+Camilo Pestana
 
 ---
 
