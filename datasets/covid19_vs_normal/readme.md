@@ -2,5 +2,5 @@
 
 This dataset contains three folders corresponding to train, validation and test.
 
-- x-ray dataset.
+- x-ray dataset. (We need your help to build this dataset)
 - Tomography dataset. (We need your help to build this dataset)
