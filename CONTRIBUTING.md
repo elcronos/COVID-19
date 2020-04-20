@@ -6,7 +6,7 @@ If you are reading this, you probably have seen a post on social media about thi
 <br/>
 Our official channel for communication is Slack. Join us now:
 
-[<img src="resources/slack_logo.png" width="30px" height="30px">](https://join.slack.com/t/covid-19detector/shared_invite/zt-cw28jq9g-2FcPBD~zNRYLnVhr34hrRQ)
+[<img src="resources/slack_logo.png" width="30px" height="30px">](https://join.slack.com/t/covid-19detector/shared_invite/zt-drgeps78-RK0PjFHKVWwSYMxmLHypZg)
 <br/>
 For Developers or people wanting to contribute directly in the GitHub repository. Please star and follow our repository:
 
